@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "36668269697",
-    "project_id": "aplicacion-taller-bbdcf",
-    "storage_bucket": "aplicacion-taller-bbdcf.firebasestorage.app"
+    "project_number": "158404498771",
+    "project_id": "life-quest-15e67",
+    "storage_bucket": "life-quest-15e67.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:36668269697:android:e1bb152c6a8bc2b23d1980",
+        "mobilesdk_app_id": "1:158404498771:android:bc0019eecc5f0d4e82fda6",
         "android_client_info": {
-          "package_name": "com.example.aplicaciontaller"
+          "package_name": "com.example.lifequest"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCUsm7Q7KZq4tk02kU_0ExGiTrPFBaTFVE"
+          "current_key": "AIzaSyDBNGPW4TGFIoQPrwrJnKFG9CqY6ca8pAA"
         }
       ],
       "services": {

@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.aplicaciontaller"
+    namespace = "com.example.lifequest"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.aplicaciontaller"
+        applicationId = "com.example.lifequest"
         minSdk = 26
         targetSdk = 37
         versionCode = 1
@@ -40,6 +40,7 @@ android {
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
@@ -48,6 +49,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.room3.common)
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
@@ -64,4 +66,7 @@ dependencies {
     val room_version = "3.0.3"
     implementation("androidx.room3:room3-runtime:$room_version")
     ksp("androidx.room3:room3-compiler:$room_version")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Aplicacion Taller"
+rootProject.name = "Life Quest"
 include(":app")
